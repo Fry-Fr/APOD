@@ -37,7 +37,7 @@ img {
     border-radius: .5rem;
     box-shadow: 0 .2rem 1rem 1rem #8686865e;
     margin-top: 1.5rem;
-    width: 90%;
+    max-width: 90%;
     transform: scale(90%);
 }
 
@@ -64,6 +64,7 @@ p {
         border-radius: 0;
         margin-top: 1rem;
         transform: none;
+        max-width: none;
         width: 100%;
     }
 

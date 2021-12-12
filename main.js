@@ -19,7 +19,7 @@ main.appendChild(apod);
 main.appendChild(explanation);
 
 function getAPOD() {
-    fetch(`https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY`)
+    fetch(`https://api.nasa.gov/planetary/apod?api_key=${'DEMO_KEY'}`)
         .then(res => res.json())
         .then(data => {
             title.textContent = data.title;
