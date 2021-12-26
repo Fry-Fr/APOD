@@ -51,6 +51,7 @@ p {
     margin-top: 1rem;
     padding: 2rem;
     width: 85%;
+    max-width: 1300px;
 }
 
 #root {
